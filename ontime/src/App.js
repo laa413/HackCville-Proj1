@@ -1,46 +1,39 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
+import logo from './logo.svg'
+import './App.css'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import AppBar from 'material-ui/AppBar'
+import NowTile from './NowTile.js'
+import EventTile from './EventTile.js'
+import RemindTile from './RemindTile.js'
+import ToDoTile from './ToDoTile.js'
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>OnTime</h2>
+      <div className='App'>
+        <MuiThemeProvider>
+          <AppBar title='OnTime' showMenuIconButton={false} />
+        </MuiThemeProvider>
+
+        <div className="SideBar">
+          
         </div>
-
-        <div className="top">
-          <div className="NowTile">
-            <h1>Now</h1>
-            <div className="hello">
-              <ol>
-              <li>Coffee</li>
-              <li>Tea</li>
-              <li>Milk</li>
-            </ol>
-            </div>
-            
+        <div className="Dashboard">
+          <div className='top'>
+            <NowTile />
+            <EventTile />
           </div>
 
-          <div className="EventTile">
-            <h1>Event</h1>
-          </div>
-        </div>
-
-        <div className="bottom">
-          <div className="ReminderTile">
-            <h1>Reminder</h1>
-          </div>
-
-          <div className="ToDoTile">
-            <h1>Todo</h1>
+          <div className='bottom'>
+            <RemindTile />
+            <ToDoTile />
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

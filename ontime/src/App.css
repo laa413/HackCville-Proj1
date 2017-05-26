@@ -1,45 +1,32 @@
 .App {
-  text-align: center;
+  
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 60px;
+.SideBar {
+    position:absolute;
+    left:0; top:65px; bottom: 0;
+    width: 178px;
+    background-color: gray;
 }
-
-.App-header {
-  background-color: #222;
-  text-align: left;
-  height: 60px;
-  padding: 8px;
-  color: white;
-}
-
-li{
-  text-align: left;
-}
-
-h2{
-  display: inline-block;
+.Dashboard {
+    position: absolute;
+    left:178px; top:65px; right:0; bottom:0;
+    background-color: white;
 }
 
 .top{
-  margin-left: 240px; 
   text-align: center;
-  background-color: white;
   height: auto;
 }
 
 .bottom{
-  margin-left: 240px; 
   text-align: center;
-  background-color: white;
   height: auto;
 }
 
 .NowTile{
   text-align: center;
-  height: 240px;
+  height: 247px;
   width: 45%;
   margin:20px;
   background-color:pink;
@@ -48,16 +35,16 @@ h2{
 
 .EventTile{
   text-align: center;
-  height: 240px;
+  height: 247px;
   width: 45%;
   margin:20px;
   background-color: lightsalmon;
   display:inline-block;
 }
 
-.ReminderTile{
+.RemindTile{
   text-align: center;
-  height: 240px;
+  height: 247px;
   width: 45%;
   margin:20px;
   background-color: lightyellow;
@@ -66,14 +53,9 @@ h2{
 
 .ToDoTile{
   text-align: center;
-  height: 240px;
+  height: 247px;
   width: 45%;
   margin:20px;
   background-color: lightgreen;
   display:inline-block;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
