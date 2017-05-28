@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import './ToDoTile.css'
 
-class ToDoTile extends Component {
+class RemindTile extends Component {
   constructor() {
     super()
     this.state = {
@@ -14,11 +13,10 @@ class ToDoTile extends Component {
 
   render() {
     return (
-      <div className='ToDoTile'>
-        <h1>To-Do</h1>
-        <button className="editButton1">+</button>
+      <div className='RemindTile'>
+        <h1>Reminders</h1>
       </div>
     )
   }
 }
-export default ToDoTile
+export default RemindTile
