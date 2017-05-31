@@ -1,4 +1,4 @@
-.NowTile{
+.SimpleTile{
   text-align: center;
   height: 247px;
   width: 45%;
@@ -7,7 +7,7 @@
   display:inline-block;
 }
 
-h1{
+.tileName{
   display: inline-block;
   text-align: center;
 }
@@ -15,21 +15,17 @@ h1{
 .editButton {
   width: 30px;
   height: auto;
-	background-color:pink;
 	border-radius:10px;
-	border:1px solid lightcoral;
 	position:relative;
   left:170px; right:0; top:-10px; bottom:0;
 	cursor:pointer;
-	color: white;
+	color: lightgray;
 	font-family:Arial;
 	font-size:20px;
 	text-align: center;
 	text-decoration:none;
 }
-.editButton:hover {
-	background-color:lightcoral;
-}
+
 .editButton:active {
 	position:relative;
 	top:-7px;

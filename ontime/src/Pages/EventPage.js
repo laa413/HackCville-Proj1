@@ -2,31 +2,31 @@ import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 
-import './App.css'
-import '../src/Pages/Dashboard.css'
-import SideBar from '../src/Components/SideBar.js'
-import ProdTile from '../src/Components/ProdTile.js'
-import Dashboard from '../src/Pages/Dashboard.js'
+import '../App.css'
+import SideBar from '../Components/SideBar.js'
+import ProdTile from '../Components/ProdTile.js'
+import Dashboard from '../Pages/Dashboard.js'
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import AppBar from 'material-ui/AppBar'
 
-class App extends Component {
+class EventPage extends Component {
   render () {
     return (
       <div className='App'>
         <MuiThemeProvider>
           <AppBar title='OnTime' showMenuIconButton={false}/>
         </MuiThemeProvider>
-        <Router>
-          <div className="SideBar">
-            <SideBar />
-            <ProdTile />
-          </div>
-        </Router>
+
+        <div className="SideBar">
+          <SideBar />
+          <ProdTile />
+        </div>
+
+        <Dashboard />
       </div>
     )
   }
 }
 
-export default App
+export default EventPage

@@ -1,27 +1,24 @@
 import React, { Component } from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
-import NowPage from './NowPage.js'
-import './NowTile.css'
 
-class NowTile extends Component {
-  constructor() {
-    super()
+class SimpleTile extends Component {
+  constructor(props) {
+    super(props)
     this.state = {
-      type: null,
-      name: null,
-      time: null,
-      loc: null
+        title: this.props.className,
+        color: this.props.style
     }
   }
 
   render() {
     return (
-      <div className='NowTile'>
-        <h1>Now</h1>
+      <div className='SimpleTile'>
+        <h1 className="tileName">{this.state.title}</h1>
         <button className="editButton">+</button>
+        <div className="content"></div>
       </div>
     )
   }
 }
-export default NowTile
+export default SimpleTile

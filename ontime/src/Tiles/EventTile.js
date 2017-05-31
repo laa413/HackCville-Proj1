@@ -3,12 +3,13 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import './EventTile.css'
 
 class EventTile extends Component {
-  constructor() {
-    super()
+  constructor(props){
+    super(props);
     this.state = {
-      name: null,
-      time: null,
-      loc: null
+      tasks: [
+        {name: "Task 1"}, 
+        {name: "Task 2"},
+        ]
     }
   }
 
