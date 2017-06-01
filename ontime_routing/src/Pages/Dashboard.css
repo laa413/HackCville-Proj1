@@ -1,0 +1,36 @@
+.Dashboard{
+	height: 700px;
+	width: 1300px;
+	position: absolute;
+	left:178px; top:0px;
+	background-image: url("http://www.intrawallpaper.com/static/images/gradient-background.jpg")
+}
+
+.tileName{
+  display: inline-block;
+  text-align: center;
+}
+
+.editButton {
+  width: 30px;
+  height: auto;
+	background-color:pink;
+	border-radius:10px;
+	border:1px solid lightcoral;
+	position:relative;
+	cursor:pointer;
+	color: white;
+	font-family:Arial;
+	font-size:20px;
+	text-align: center;
+	text-decoration:none;
+}
+.editButton:hover {
+	background-color:lightcoral;
+}
+.editButton:active {
+	position:relative;
+	top:-7px;
+}
+
+https://s-media-cache-ak0.pinimg.com/originals/69/0c/f6/690cf657788ea89a9ecabc258a0388f1.jpg

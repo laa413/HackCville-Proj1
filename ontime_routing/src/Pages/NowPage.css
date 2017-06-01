@@ -1,0 +1,33 @@
+.NowPage{
+	height: 700px;
+	width: 1300px;
+	position: absolute;
+	left:178px; top:0px;
+  text-align: center;
+  background-image: url("http://www.intrawallpaper.com/static/images/gradient-background.jpg")
+
+}
+
+.left{
+  height: 530px;
+	width: 500px;
+  display:inline-block;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 20px;
+  background-image: url("http://www.intrawallpaper.com/static/images/gradient-background.jpg")
+}
+
+.right{
+  height: 530px;
+	width: 500px;
+  display:inline-block;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.calendar{
+  height: 500px;
+  background-image: url("http://www.intrawallpaper.com/static/images/gradient-background.jpg")
+}

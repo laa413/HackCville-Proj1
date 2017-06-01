@@ -1,0 +1,19 @@
+.App{
+  text-align: left;
+}
+
+.Dashboard {
+    position: absolute;
+    left:178px; top:65px; right:0; bottom:0;
+    background-color: white;
+}
+
+.top{
+  text-align: center;
+  height: auto;
+}
+
+.bottom{
+  text-align: center;
+  height: auto;
+}
