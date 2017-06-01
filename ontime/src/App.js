@@ -18,12 +18,10 @@ class App extends Component {
         <MuiThemeProvider>
           <AppBar title='OnTime' showMenuIconButton={false}/>
         </MuiThemeProvider>
-        <Router>
           <div className="SideBar">
             <SideBar />
             <ProdTile />
           </div>
-        </Router>
       </div>
     )
   }

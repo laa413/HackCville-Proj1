@@ -20,7 +20,7 @@ class SideBar extends Component {
                 <li><Link to='/about&contact'>About & Contact</Link></li>
               </ul>
             </div>
-            
+
             <Route exact path='/' component={Dashboard}/>
             <Route exact path='/calendar' component={NowPage}/>
             <Route exact path='/settings&account' component={SettingsPage}/>

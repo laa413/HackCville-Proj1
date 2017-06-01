@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 import './SettingsPage.css'
-import '../App.css'
 
 class SettingsPage extends Component {
   render () {

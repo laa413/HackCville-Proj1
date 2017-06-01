@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 import './ToDoPage.css'
-import '../App.css'
 
 class ToDoPage extends Component {
   render () {

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 import NowTile from '../Tiles/NowTile.js'
 import '../Tiles/NowTile.css'
@@ -9,7 +8,6 @@ import RemindTile from '../Tiles/RemindTile.js'
 import ToDoTile from '../Tiles/ToDoTile.js'
 import SimpleTile from '../Tiles/SimpleTile.js'
 import './Dashboard.css'
-import '../App.css'
 
 class Dashboard extends Component {
   render () {

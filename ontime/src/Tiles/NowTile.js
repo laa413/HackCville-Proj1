@@ -10,7 +10,6 @@ class NowTile extends Component {
     this.state = {
       title: props.className
     };
-    //{this.state.title}
   }
 
   render() {
@@ -18,9 +17,9 @@ class NowTile extends Component {
       <div className='NowTile'>
         <h1 className="tileName">Now</h1>
         <Router>
-          <div><button className="editButton"><Link to='/calendar'>+</Link></button>
-
-            <Route path='/calendar' component={NowPage}/>
+          <div>
+            <button className="editButton"><Link to='/calendar'>+</Link></button>
+            <Route exact path='/calendar' component={NowPage}/>
           </div>
           </Router>
         <div className="content"></div>
