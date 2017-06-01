@@ -2,22 +2,20 @@ import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
-import './NowPage.css'
+import './AboutPage.css'
 import '../App.css'
 
-class NowPage extends Component {
+class AboutPage extends Component {
   render () {
     return (
       <div className='NowPage'>
-        <div className='left'>
-          <h1>Calendar</h1>
-        </div>
-        <div className='right'>
-          <h1>List of all on selected day</h1>
+        <div className='bigDiv'>
+          <h1>About Us</h1>
+          <h3>This site was created by Lindsey Abramson & Hung Tang.  (C) May 2017</h3>
         </div>
       </div>
     )
   }
 }
 
-export default NowPage
+export default AboutPage

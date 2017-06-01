@@ -3,8 +3,9 @@
   height: 247px;
   width: 45%;
   margin:20px;
-  background-color:lightgreen;
   display:inline-block;
+	background-image: url('http://static.wixstatic.com/media/c571fe_63a9cbda160037c273f52d4653f2fbd7.png_srz_1080_814_85_22_0.50_1.20_0.00_png_srz');
+	background-size: contain;
 }
 
 h1{

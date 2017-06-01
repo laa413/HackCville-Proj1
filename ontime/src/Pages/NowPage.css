@@ -1,76 +1,30 @@
-.App {
-  
-}
-
-.SideBar {
-    position:absolute;
-    left:0; top:65px; bottom: 0;
-    width: 178px;
-}
-
-button{
-  height:65px;
-  width: 178px;
-  font-size: 18pt;
-}
-
-.Productivity{
-  height:338px;
-  background-color: #00BCD4;
-}
-
-img{
-  width:178px;
-}
-
-.Dashboard {
-    position: absolute;
-    left:178px; top:65px; right:0; bottom:0;
-    background-color: white;
-}
-
-.top{
+.NowPage{
+	height: 574px;
+	width: 1102px;
+	position: absolute;
+	left:178px; top:0px;
   text-align: center;
-  height: auto;
+  background-image: url("http://www.intrawallpaper.com/static/images/gradient-background.jpg")
 }
 
-.bottom{
-  text-align: center;
-  height: auto;
-}
-
-.NowTile{
-  text-align: center;
-  height: 247px;
-  width: 45%;
-  margin:20px;
-  background-color:pink;
+.left{
+  height: 530px;
+	width: 500px;
+  background-image: url('http://static.wixstatic.com/media/c571fe_63a9cbda160037c273f52d4653f2fbd7.png_srz_1080_814_85_22_0.50_1.20_0.00_png_srz');
+  background-size: contain;
   display:inline-block;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 20px;
 }
 
-.EventTile{
-  text-align: center;
-  height: 247px;
-  width: 45%;
-  margin:20px;
-  background-color: lightsalmon;
+.right{
+  height: 530px;
+	width: 500px;
+  background-image: url('http://static.wixstatic.com/media/c571fe_63a9cbda160037c273f52d4653f2fbd7.png_srz_1080_814_85_22_0.50_1.20_0.00_png_srz');
+  background-size: contain;
   display:inline-block;
-}
-
-.RemindTile{
-  text-align: center;
-  height: 247px;
-  width: 45%;
-  margin:20px;
-  background-color: lightyellow;
-  display:inline-block;
-}
-
-.ToDoTile{
-  text-align: center;
-  height: 247px;
-  width: 45%;
-  margin:20px;
-  background-color: lightgreen;
-  display:inline-block;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
 }

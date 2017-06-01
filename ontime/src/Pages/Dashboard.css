@@ -1,14 +1,9 @@
 .Dashboard{
-	height: 577px;
-}
-
-.NowTile{
-  text-align: center;
-  height: 247px;
-  width: 45%;
-  margin:20px;
-  background-color:pink;
-  display:inline-block;
+	height: 574px;
+	width: 1102px;
+	position: absolute;
+	left:178px; top:0px;
+	background-image: url("http://www.intrawallpaper.com/static/images/gradient-background.jpg")
 }
 
 .tileName{
@@ -23,7 +18,6 @@
 	border-radius:10px;
 	border:1px solid lightcoral;
 	position:relative;
-  left:170px; right:0; top:-10px; bottom:0;
 	cursor:pointer;
 	color: white;
 	font-family:Arial;
@@ -38,3 +32,5 @@
 	position:relative;
 	top:-7px;
 }
+
+https://s-media-cache-ak0.pinimg.com/originals/69/0c/f6/690cf657788ea89a9ecabc258a0388f1.jpg
