@@ -3,6 +3,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import './NowTile.css'
 import NowPage from '../Pages/NowPage.js'
+import Timer from '../Pages/TimerPage.js'
 
 class NowTile extends Component {
   constructor(props) {
@@ -22,7 +23,9 @@ class NowTile extends Component {
             <Route exact path='/calendar' component={NowPage}/>
           </div>
           </Router>
-        <div className="content"></div>
+        <div className="content">
+          <Timer />
+        </div>
       </div>
     )
   }

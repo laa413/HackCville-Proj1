@@ -15,14 +15,14 @@ class SideBar extends Component {
             <div>
               <ul>
                 <li><Link to='/'>Dashboard</Link></li>
-                <li><Link to='/calendar'>Calendar</Link></li>
+                <li><Link to='/pomodoro'>Pomodoro</Link></li>
                 <li><Link to='/settings&account'>Settings</Link></li>
                 <li><Link to='/about&contact'>About & Contact</Link></li>
               </ul>
             </div>
 
             <Route exact path='/' component={Dashboard}/>
-            <Route exact path='/calendar' component={NowPage}/>
+            <Route exact path='/pomodoro' component={NowPage}/>
             <Route exact path='/settings&account' component={SettingsPage}/>
             <Route exact path='/about&contact' component={AboutPage}/>
           </div>

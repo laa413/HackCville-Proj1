@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import './EventTile.css'
+import EventPage from '../Pages/EventPage.js'
 
 class EventTile extends Component {
   constructor(props){
@@ -17,7 +19,12 @@ class EventTile extends Component {
     return (
       <div className='EventTile'>
         <h1>Events</h1>
-        <button className="editButton2">+</button>
+        <Router>
+          <div>
+            <button className="editButton2"><Link to='/eventpage'>+</Link></button>
+            <Route exact path='http://localhost:3000/eventpage' component={EventPage}/>
+          </div>
+        </Router>
       </div>
     )
   }

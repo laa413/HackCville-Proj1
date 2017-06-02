@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
+import Timer from './TimerPage.js'
 
 import './NowPage.css'
 import '../App.css'
@@ -9,10 +10,16 @@ class NowPage extends Component {
     return (
       <div className='NowPage'>
         <div className='left'>
-          <h1>Calendar</h1>
+          <h1>Pomodoro</h1>
+          <Timer />
+          <br />
+          <Timer />
+          <br />
+          <Timer />
+          <br />
+          <Timer />
         </div>
         <div className='right'>
-          <h1>List of all on selected day</h1>
         </div>
       </div>
     )

@@ -8,10 +8,10 @@ class EventPage extends Component {
     return (
       <div className='EventPage'>
         <div className='left'>
-          <h1>General</h1>
+          <h1>Events</h1>
         </div>
         <div className='right'>
-          <h1>Account Settings</h1>
+          <h1>Add Event</h1>
         </div>
       </div>
     )

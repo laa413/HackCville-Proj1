@@ -8,10 +8,10 @@ class RemindPage extends Component {
     return (
       <div className='RemindPage'>
         <div className='left'>
-          <h1>General</h1>
+          <h1>Reminders</h1>
         </div>
         <div className='right'>
-          <h1>Account Settings</h1>
+          <h1>Add Reminders</h1>
         </div>
       </div>
     )

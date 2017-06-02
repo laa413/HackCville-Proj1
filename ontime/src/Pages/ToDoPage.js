@@ -8,10 +8,10 @@ class ToDoPage extends Component {
     return (
       <div className='ToDoPage'>
         <div className='left'>
-          <h1>General</h1>
+          <h1>ToDoList</h1>
         </div>
         <div className='right'>
-          <h1>Account Settings</h1>
+          <h1>Add ToDo</h1>
         </div>
       </div>
     )
