@@ -6,10 +6,7 @@ class ProdTile extends Component {
     return (
       <div className="Productivity">
         <h3>Productivity</h3>
-        <img
-          src="https://www.internetmarketingninjas.com/blog/wp-content/uploads/2012/07/6-cool-productivity-charts-03-1.png"/>
-        <p>This will be the space for the productivity data (score/chart). Image above
-          is the current placeholder</p>
+        <p>When you waste a moment, you have killed it in a sense... But when you use the moment properly, filling it with purpose and productivity, it lives on forever. -Menachem Schneerson</p>
       </div>
     )
   }

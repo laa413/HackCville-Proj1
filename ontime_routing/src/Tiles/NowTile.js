@@ -5,6 +5,7 @@ import './NowTile.css'
 import NowPage from '../Pages/NowPage.js'
 import ReactCountdownClock from 'react-countdown-clock'
 import myCallback from 'react-countdown-clock'
+import Timer from '../Pages/TimerPage.js'
 
 class NowTile extends Component {
   constructor(props) {
@@ -18,12 +19,9 @@ class NowTile extends Component {
     return (
       <div className='NowTile'>
         <h1 className="tileName">Now</h1>
-          <ReactCountdownClock className="clock" seconds={1500}
-                     color="#F00"
-                     alpha={0.9}
-                     size={100}
-                     onComplete={myCallback}
-                      />
+        <div className = "time">
+          <Timer/>
+          </div>
         <Router>
           <div>
             <Route exact path='/calendar' component={NowPage}/>

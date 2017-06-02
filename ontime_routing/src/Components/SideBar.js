@@ -15,8 +15,8 @@ class SideBar extends Component {
             <div>
               <ul>
                 <li><Link to='/'>Dashboard</Link></li>
-                <li><Link to='/calendar'>Calendar</Link></li>
-                <li><Link to='/settings&account'>Settings</Link></li>
+                <li><Link to='/calendar'>Pomodoro</Link></li>
+                <li><Link to='/settings&account'>Study Tips</Link></li>
                 <li><Link to='/about&contact'>About & Contact</Link></li>
               </ul>
             </div>

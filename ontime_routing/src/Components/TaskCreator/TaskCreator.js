@@ -8,7 +8,7 @@ class TaskCreator extends Component {
             <div className="task--creator">
                 <label>New Task</label>
                 
-                <input type = "text" onKeyUp={this.props.onKeyUpHandler} placeholder="Enter a taskname..." />
+                <input type = "text" onKeyUp={this.props.onKeyUpHandler} placeholder="Type here..." />
                 
                 </div>
         );

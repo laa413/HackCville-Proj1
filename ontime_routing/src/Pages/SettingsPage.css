@@ -1,30 +1,44 @@
 .SettingsPage{
-	height: 574px;
-	width: 1102px;
+	height: 700px;
+	width: 1300px;
 	position: absolute;
 	left:178px; top:0px;
   text-align: center;
-  background-image: url("http://www.intrawallpaper.com/static/images/gradient-background.jpg")
+  background-image: url("http://www.intrawallpaper.com/static/images/gradient-background.jpg");
 }
 
-.left{
-  height: 530px;
-	width: 500px;
-  background-image: url('http://static.wixstatic.com/media/c571fe_63a9cbda160037c273f52d4653f2fbd7.png_srz_1080_814_85_22_0.50_1.20_0.00_png_srz');
-  background-size: cover;
-  display:inline-block;
-  margin-left: 20px;
+.image_1 {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/07/e8/96/07e89640a1f3e8176d7c9c0e49cc1032.jpg");
+  background-size: contain;
+  height: 580px;
+  width: 290px;
+  display: inline-block;
   margin-right: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
-.right{
-  height: 530px;
-	width: 500px;
-  background-image: url('http://static.wixstatic.com/media/c571fe_63a9cbda160037c273f52d4653f2fbd7.png_srz_1080_814_85_22_0.50_1.20_0.00_png_srz');
-  background-size: cover;
-  display:inline-block;
-  margin-left: 10px;
-  margin-right: 20px;
-  margin-top: 20px;
+.image_2 {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/03/bc/f8/03bcf8aa4450da7ad1c1589bc92a7bb8.jpg");
+  background-size: contain;
+  height: 580px;
+  width: 165px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.image_3 {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/0c/06/b3/0c06b3c4fc0b6d56a54474a5bf1deb96.jpg");
+  background-size: contain;
+  height: 580px;
+  width: 265px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.image_4 {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/5c/0e/b8/5c0eb8f25892f463dac04275eaf598e1.jpg");
+  background-size: contain;
+  height: 580px;
+  width: 290px;
+  display: inline-block;
 }

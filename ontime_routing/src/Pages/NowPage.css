@@ -1,33 +1,38 @@
 .NowPage{
-	height: 700px;
-	width: 1300px;
+	height: 640px;
+	width: 1240px;
 	position: absolute;
 	left:178px; top:0px;
   text-align: center;
   background-image: url("http://www.intrawallpaper.com/static/images/gradient-background.jpg")
-
 }
 
-.left{
-  height: 530px;
-	width: 500px;
+.bigDiv1{
+  height: 560px;
+	width: 1050px;
+  background-image: url('http://static.wixstatic.com/media/c571fe_63a9cbda160037c273f52d4653f2fbd7.png_srz_1080_814_85_22_0.50_1.20_0.00_png_srz');
+  background-size: contain;
   display:inline-block;
   margin-left: 20px;
   margin-right: 10px;
   margin-top: 20px;
-  background-image: url("http://www.intrawallpaper.com/static/images/gradient-background.jpg")
 }
 
-.right{
-  height: 530px;
-	width: 500px;
-  display:inline-block;
+.pomo{
+  display: inline-block;
+  vertical-align: top;
+  height: 420px;
+  width: 500px;
+  background-color: #AAE8DD;
+  margin-right: 10px;
+}
+
+.picRight{
+  display: inline-block;
+  vertical-align: top;
+  background-image: url("https://addicted2success.com/wp-content/uploads/2013/08/Motivation-Picture-Quote-Determination.jpg");
+  background-size: contain;
+  height: 420px;
+  width: 420px;
   margin-left: 10px;
-  margin-right: 20px;
-  margin-top: 20px;
-}
-
-.calendar{
-  height: 500px;
-  background-image: url("http://www.intrawallpaper.com/static/images/gradient-background.jpg")
 }

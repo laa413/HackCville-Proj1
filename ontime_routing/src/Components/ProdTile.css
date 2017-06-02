@@ -1,5 +1,5 @@
 .Productivity{
-  height:334px;
+  height:400px;
   background-color: #00BCD4;
   position:absolute;
   left:0; top:240px; bottom: 0;
@@ -7,6 +7,7 @@
   margin:0;
 }
 
-img{
-  width:178px;
+p{
+  margin: 10px;
 }
+
