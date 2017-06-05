@@ -1,26 +1,19 @@
-.App {
-	text-align: center;
-}
-
 .RemindTile{
   text-align: center;
-  height: 275px;
-  width: 35%;
+  height: 247px;
+  width: 45%;
   margin:20px;
-  /*background-color:lightyellow;*/
   display:inline-block;
-	position: fixed;
-	top: 370px;
-	left: 800px;
 	background-image: url("http://www.colehardware.com/wp-content/themes/cole/images/corkboard-background.jpg");
 	background-size: cover;
-	
 }
 
 h1{
   display: inline-block;
   text-align: center;
 }
+
+
 
 .editButton3 {
   width: 30px;
@@ -43,14 +36,4 @@ h1{
 .editButton3:active {
 	position:relative;
 	top:-7px;
-}
-
-.reminder_button {
-	width: 20px;
-	height: 10px;
-
-}
-
-.contract {
-	size: 20px;
 }

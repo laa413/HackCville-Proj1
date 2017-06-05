@@ -72,7 +72,7 @@ class RemindTile extends Component {
     return (
       <div className='RemindTile'>
         <h1>Reminders</h1>
-         <div className="App">
+         <div className="Form">
 
         {this.state.editIndex < 0 && 
         <Form id="input" 

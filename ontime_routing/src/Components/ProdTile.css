@@ -1,8 +1,9 @@
 .Productivity{
-  height:400px;
+  height:408px;
+  width: 178px;
   background-color: #00BCD4;
   position:absolute;
-  left:0; top:240px; bottom: 0;
+  left:0; top:230px; bottom: 0;
   text-align: center;
   margin:0;
 }

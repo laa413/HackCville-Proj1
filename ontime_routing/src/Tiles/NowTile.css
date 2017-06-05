@@ -1,20 +1,17 @@
 .NowTile{
   text-align: center;
-  height: 275px;
-  width: 35%;
+  height: 247px;
+  width: 45%;
   margin:20px;
-  /*background-color:pink;*/
   display:inline-block;
-	position: fixed;
-	left: 200px;
+	vertical-align: top;
 	background-image: url("http://www.colehardware.com/wp-content/themes/cole/images/corkboard-background.jpg");
 	background-size: cover;
 }
 
-.h1{
+.tileName{
   display: inline-block;
   text-align: center;
-	font: courier; 
 }
 
 .editButton {
